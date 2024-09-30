@@ -1,0 +1,67 @@
+.body
+{
+font-family: 'Montserrat', sans-serif;
+margin: 6;
+padding: 0; 
+}
+
+.navbar {
+background-color: #708871;
+padding: 10px;
+  }
+  
+
+.navbar-brand {
+color: #ffffff;
+text-decoration: none;
+  }
+
+
+figure {
+background-color:#BEC6A0; /* Warna latar belakang untuk figure */
+padding: 10px;
+border-radius: 5px;
+}
+  
+blockquote {
+color: white; /* Warna teks dalam blockquote */
+font-style: italic;
+}
+  
+blockquote p {
+color: white; /* Warna teks kutipan */
+}
+  
+figcaption {
+color: white; /* Warna teks figcaption */
+  }
+  
+  
+
+footer {
+background-color:#708871;
+color: white;
+padding-top: 25px;
+padding-bottom: 15px;
+display: block;
+}
+    
+a img {
+width: 50px;
+height: 50px;
+padding-left: 20px;
+}
+
+@media (max-width: 412px) {
+.navbar {
+flex-direction: column; 
+align-items: flex-start;
+padding: 10px;   
+}
+
+.footer {
+flex-direction: column;
+text-align: center;
+}
+
+} 
