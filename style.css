@@ -62,8 +62,6 @@ flex-direction: column;
 align-items: flex-start;
 padding: 10px;   
 }
-/* Gaya untuk perangkat mobile */
-@media (max-width: 576px) {
 #skill-picture {
 width: 100%; 
 height: auto; 
